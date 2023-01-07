@@ -1,0 +1,214 @@
+
+*{
+
+   
+font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-background-img{
+    background-image: url(images/banner/banner1.png);
+ 
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+
+}
+
+.header-title{
+    text-align: right;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 76px;
+    margin-right: 100px;
+    padding-top: 200px ;
+}
+
+.header-para{
+    
+   text-align: right;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+    margin-right: 100px;
+    padding-bottom: 300px;
+    margin-left: 800px;
+
+}
+
+.contact-btn{
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    background-color: rgb(245, 109, 60);
+    text-align: center;
+
+}
+
+.failure-section{
+display: flex;
+justify-content: space-between;
+text-align: left;
+margin: 100px 100px;
+gap: 50px;
+}
+
+.failur-para{
+    margin-top: 300px;
+     margin-right: 100px; 
+}
+   
+.failur-title{
+    font-weight: 700;
+font-size: 30px;
+}
+
+.failur-description{
+    padding-top: 20px;
+    font-size: 13px;
+    color: #444343;
+}
+
+.gap-between-tik{
+    margin-top: 10px;
+}
+
+.information{
+    display: flex;
+    justify-content:space-evenly
+}
+
+.my-plan-section{
+    margin: 100px 100px;
+    text-align: center;
+}
+
+.my-plan-title{
+    font-weight: 700;
+    font-size: 40px;
+    margin: 100px 0;
+}
+
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.skill-description{
+    color: #444343;
+}
+
+.watch{
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 800px;
+    height: 200px;
+    left: 250px;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom, rgba(214, 90, 18, 0.226), rgba(168, 75, 22, 0.73)),
+    url(images/watch.png); 
+
+   
+}
+
+.Watch-title{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.watch-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(34, 179, 223);
+    border: none;
+}
+
+
+.last{
+    margin-top: 500px;
+    background-color: black;
+    color: white;
+
+}
+
+.last-decor{
+    padding: 100px 200px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.future-para{
+    margin-top: 10px;
+    font-size: 12px;
+    margin-right: 300px;
+}
+
+.future p{
+    margin-top: 10px;
+    font-size: 12px;
+    margin-right: 300px;
+    margin-bottom: 10px;
+}
+
+.icons{
+ width: 30px;
+ margin-left:10px ;
+}
+
+.input{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding-left: 10px;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.subscribe-btn{
+   width: 100px;
+height: 40px;
+background-color: #005FAC;
+border-radius: 5px;
+color:white;
+}
+
+
+.header-of-success{
+
+    background-image: url(images/getty_615524918_407969.jpg);
+ 
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    
+}
+
+.success-title{
+
+
+    text-align:center;
+    font-weight: 700;
+    font-size: 30px;
+   
+    margin-right: 100px;
+    padding-top: 50px ;
+    color: white;
+    
+}
+
+.success-para{
+    margin-right: 200px;
+    margin-top: 20px;
+    margin-left: 200PX;
+text-align: center;
+    padding-bottom: 300px;
+    color: white;
+}
