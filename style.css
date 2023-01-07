@@ -1,14 +1,16 @@
 
 *{
 
-   
-font-family: 'Work Sans', sans-serif;
+ 
+    font-family: 'Work Sans', sans-serif;
     margin: 0;
     padding: 0;
 }
 
+/* header */
+
 .header-background-img{
-    background-image: url(images/banner/banner1.png);
+    background-image: url(images/banner/banner2.png);
  
     background-repeat: no-repeat;
     
@@ -22,7 +24,8 @@ font-family: 'Work Sans', sans-serif;
     font-size: 50px;
     line-height: 76px;
     margin-right: 100px;
-    padding-top: 200px ;
+    margin-left: 100px;
+    padding-top: 300px ;
 }
 
 .header-para{
@@ -49,6 +52,8 @@ font-family: 'Work Sans', sans-serif;
 
 }
 
+
+/* failur section */
 .failure-section{
 display: flex;
 justify-content: space-between;
@@ -77,6 +82,8 @@ font-size: 30px;
     margin-top: 10px;
 }
 
+/*-- plans-- */
+
 .information{
     display: flex;
     justify-content:space-evenly
@@ -102,6 +109,8 @@ font-size: 30px;
 .skill-description{
     color: #444343;
 }
+
+/* watch and linear gradient */
 
 .watch{
     background-repeat: no-repeat;
@@ -129,6 +138,7 @@ font-size: 30px;
     border: none;
 }
 
+/* Footer section */
 
 .last{
     margin-top: 500px;
@@ -143,6 +153,8 @@ font-size: 30px;
     justify-content: space-between;
   
 }
+
+/* future part */
 
 .future-para{
     margin-top: 10px;
@@ -161,6 +173,8 @@ font-size: 30px;
  width: 30px;
  margin-left:10px ;
 }
+
+/* subscribe part */
 
 .input{
     background-color: black;
@@ -181,34 +195,33 @@ color:white;
 }
 
 
-.header-of-success{
+/* add part by me */
 
-    background-image: url(images/getty_615524918_407969.jpg);
- 
-    background-repeat: no-repeat;
-    
-    background-size: cover;
-    
-}
-
-.success-title{
-
-
-    text-align:center;
-    font-weight: 700;
-    font-size: 30px;
+.country-want-to-visit h1{
+    text-align: center;
+    margin: 100px 0;
    
-    margin-right: 100px;
-    padding-top: 50px ;
-    color: white;
-    
 }
 
-.success-para{
-    margin-right: 200px;
-    margin-top: 20px;
-    margin-left: 200PX;
-text-align: center;
-    padding-bottom: 300px;
-    color: white;
+.countries{
+    display: flex;
+    justify-content: space-around;
+   
+ 
+}
+
+.country{
+
+    background-color: bisque;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: large;
+    gap: 0px;
+
+
+}
+
+.country-des{
+    font-size: 10px;
 }
